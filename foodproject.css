@@ -1,0 +1,73 @@
+.container>*{
+    background-color: lavender;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.container div{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+   
+    background-color: bisque;
+    /* background-image: url(images.jpg); */
+    color: white;
+    
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline;
+    background-color: #023a27;
+    border-radius: 10PX;
+    padding: 5PX;
+    display: flex;
+    justify-content: space-between;
+      
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #b5d6b5;
+    gap: 5px;
+}
+.food1{
+    background-color: aliceblue;
+    border: 2px solid white;
+    padding: 10px;
+}
+.food2{
+    background-color: lavender;
+    border: 2px solid white;
+    padding: 10px; 
+}
+.food3{
+    background-color: lavender;
+    border: 2px solid white;
+    padding: 10px;
+}
+.food4{
+    background-color: lavender;
+    border: 2px solid white;
+    padding: 10px;
+}
+.food5{
+    background-color: lavender;
+    border: 2px solid white;
+    padding: 10px;
+}
+.food6{
+    background-color: lavender;
+    border: 2px solid white;
+    padding: 10px;
+}
+.menu p{
+    text-align: center;
+    font-weight: bolder;
+}
